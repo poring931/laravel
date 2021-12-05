@@ -6,8 +6,9 @@
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="/kontaktnaja-informacija" class="nav-link">Контакты</a></li>
-        <li class="nav-item"><a href="/vakansii" class="nav-link">ВАкансии</a></li>
+        <li class="nav-item"><a href="{{ route('contacts-url') }}" class="nav-link">Контакты</a></li>
+        <li class="nav-item"><a href="{{ route('vakansii-url') }}" class="nav-link">ВАкансии</a></li>
+        <li class="nav-item"><a href="{{ route('contact-data') }}" class="nav-link">Сообщения</a></li>
     
       </ul>
     </header>
